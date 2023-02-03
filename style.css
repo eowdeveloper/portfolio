@@ -460,6 +460,16 @@ li span a:hover {
     font-family: 'CircularStd', sans-serif;
 }
 
+.about-hero {
+    margin-top: 0vh;
+    font-size: 2.5em;
+}
+
+.summary-hero {
+    margin-top: 0vh;
+    font-size: 2.5em;
+}
+
 .contact-hero {
     margin-top: 0vh;
     font-size: 3.5em;
@@ -560,6 +570,13 @@ label {
     width: 90%;
 }
 
+.img-icon {
+    width: 20%;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
 #left-hero {
     padding-top: 3%;
     padding-left: 9%;
@@ -590,6 +607,10 @@ li {
     font-size: 16px;
     letter-spacing: 0.1;
     padding: 0px 15px;
+}
+
+ul li #about-summary {
+    list-style: circle;
 }
 
 .social-icons {
@@ -759,7 +780,6 @@ li span:hover:after {
 
     #left-hero {
         padding-left: 50px;
-        ;
     }
 
     #work-row {
