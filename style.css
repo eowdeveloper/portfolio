@@ -612,16 +612,12 @@ label {
 }
 
 p.experience-feature img{
+    display: block;
     width: 7%;
     height: 7%;
     padding: 0;
     padding-right: 10px;
 }
-
-.hero-des img-icon{
-    width: 7%;
-    height: 7%;
-}git
 
 span.tech-stack{
     display:inline-block;
