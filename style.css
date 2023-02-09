@@ -618,6 +618,11 @@ p.experience-feature img{
     padding-right: 10px;
 }
 
+.hero-des img-icon{
+    width: 7%;
+    height: 7%;
+}git
+
 span.tech-stack{
     display:inline-block;
     margin-bottom: 5px;
