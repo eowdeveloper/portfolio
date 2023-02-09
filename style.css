@@ -463,6 +463,8 @@ li span a:hover {
 .about-hero {
     margin-top: 0vh;
     font-size: 2.5em;
+    padding-top: 1%;
+    padding-left: 8%;
 }
 
 .summary-hero {
@@ -475,6 +477,18 @@ li span a:hover {
     font-size: 3.5em;
 }
 
+.about-hero {
+    margin-top: 0vh;
+    padding-left: 0;
+    font-size: 3em;
+}
+
+.skill-hero {
+    margin-top: 0vh;
+    padding-left: 8%;
+    font-size: 3em;
+}
+
 .hero-des {
     padding-right: 60px;
     text-align: justify;
@@ -484,6 +498,10 @@ li span a:hover {
 
 .contact-des {
     letter-spacing: 0.2;
+}
+
+.bottom-spacing {
+    padding-bottom: 1.5%;
 }
 
 .input-container {
@@ -571,15 +589,70 @@ label {
 }
 
 .img-icon {
-    width: 20%;
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-right: 15px;
+    width: 22%;
+    padding-right: 8%;
 }
 
 #left-hero {
-    padding-top: 3%;
+    padding-top: 1%;
     padding-left: 9%;
+}
+
+.flex-ff{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0;
+    margin-top: 10px;
+    flex-shrink: 1 2;
+}
+
+#flex-about-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0;
+}
+
+.fun-facts{
+    padding-top: 0;
+    padding-left: 8%;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;}
+
+.ff-feature {
+    padding-bottom: 3%;
+    width: 360px;
+}
+
+.flex-col{
+    flex-direction: column;
+    padding-left: 7.5%;
+    width: 70%;
+}
+
+#title {
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+h5#title {
+    font-weight: bold;
+}
+
+.each-feature {
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 0;
+}
+
+.knowledge-feature {
+    padding-left: 8%;
+    padding-bottom: 0;
 }
 
 #logo {
@@ -715,6 +788,12 @@ li span:hover:after {
 
     }
 
+    #flex-about-hero{
+        padding-left: 80px;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
     #work-row {
         padding-left: 50px;
         padding-right: 50px;
@@ -731,6 +810,7 @@ li span:hover:after {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     #index-body {
 /*         background: url('assets/img/mobile.png'); */
         background-size: cover;
@@ -778,7 +858,29 @@ li span:hover:after {
         height: 100vh;
     }
 
+    .flex-ff{
+        flex-direction: column;
+    }
+
+    .ff-feature{
+        padding-left: 3%;
+        width:80%;
+    }
+
+    .flex-col{
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #flex-about-hero{
+        flex-direction: column;
+    }
+
     #left-hero {
+        padding-left: 50px;
+    }
+
+    #flex-about-hero{
         padding-left: 50px;
     }
 
