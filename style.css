@@ -97,6 +97,7 @@
     width: 90%;
     transition: width 1s;
 }
+
 .work-hero:hover{
     width: 95%;
 }
@@ -118,6 +119,7 @@
 .work-hero-img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .technologies h2 {
@@ -133,6 +135,7 @@
     font-size: 0.8em;
     transition: background 1s;
 }
+
 
 .tech-stack:hover {
     background: beige;
@@ -485,7 +488,7 @@ li span a:hover {
 
 .skill-hero {
     margin-top: 0vh;
-    padding-left: 8%;
+    padding-left: 9%;
     font-size: 3em;
 }
 
@@ -501,7 +504,12 @@ li span a:hover {
 }
 
 .bottom-spacing {
-    padding-bottom: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.top-spacing{
+    display: inline-block;
+    margin-top: 70px;
 }
 
 .input-container {
@@ -598,13 +606,29 @@ label {
     padding-left: 9%;
 }
 
+.experience-feature{
+    display: flex;
+    flex-direction: row;
+}
+
+p.experience-feature img{
+    width: 7%;
+    height: 7%;
+    padding: 0;
+    padding-right: 10px;
+}
+
+span.tech-stack{
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
 .flex-ff{
     display: flex;
     flex-direction: row;
     justify-content: left;
     padding: 0;
     margin-top: 10px;
-    flex-shrink: 1 2;
 }
 
 #flex-about-hero {
@@ -616,7 +640,7 @@ label {
 
 .fun-facts{
     padding-top: 0;
-    padding-left: 8%;
+    padding-left: 9%;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -635,7 +659,7 @@ label {
 
 #title {
     padding-top: 2%;
-    padding-left: 7%;
+    padding-left: 8%;
     padding-bottom: 10px;
     font-size: 1.5em;
 }
@@ -672,6 +696,10 @@ ul {
     /* color:white; */
     list-style: none;
     padding: 30px 0px;
+}
+
+ul.experience{
+    list-style:circle;
 }
 
 li {
@@ -856,6 +884,10 @@ li span:hover:after {
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
+    }
+
+    .skill-hero .fun-facts {
+        padding-left: 8%;
     }
 
     .flex-ff{
