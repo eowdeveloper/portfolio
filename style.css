@@ -625,6 +625,20 @@ span.tech-stack{
     margin-bottom: 8px;
 }
 
+.experience-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.experience-small-detail{
+    float: right;
+    font-size: medium;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
 .flex-ff{
     display: flex;
     flex-direction: row;
@@ -833,6 +847,10 @@ li span:hover:after {
         width: 100%;
     }
 
+    .experience-small-detail{
+        font-size: smaller;
+    }
+
     #hero-right {
         display: none;
     }
@@ -923,9 +941,6 @@ li span:hover:after {
         padding-left: 30px;
     }
 
-    .work-des h1 {
-        text-align: center;
-    }
 
     .work-read {
         float: none;
