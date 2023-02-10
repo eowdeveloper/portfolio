@@ -239,6 +239,7 @@ li span a:hover {
 .legal-links {
     text-decoration: none;
     font-weight: bold;
+    color: #dd99ff;
     transition: all 1s;
 }
 
@@ -621,6 +622,19 @@ p.experience-feature img{
     padding-right: 10px;
 }
 
+.project-feature{
+    display: flex;
+    flex-direction: row;
+}
+
+p.project-feature img{
+    display: block;
+    width: 7%;
+    height: 7%;
+    padding: 0;
+    padding-right: 10px;
+}
+
 span.tech-stack{
     display:inline-block;
     margin-bottom: 8px;
@@ -640,12 +654,12 @@ span.tech-stack{
     margin-bottom: 10px;
 }
 
-a.link-styling{
-    text-decoration: none;
+a.link-styling {
     color: var(--light-text-color);
 }
 
-a.link-styling:hover {
+a:hover {
+    text-decoration: none;
     color: #dd99ff;
     transition: 1.5s;
 }
